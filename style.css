@@ -81,10 +81,7 @@ nav ul{
     padding: 30px 20%;
 }
 
-.row6{
-    background-color: #23272a;
-    padding: 10px 20% 20px;
-}
+
 .item{
     height: 300px; 
     border-style: dashed;
@@ -104,4 +101,29 @@ nav ul{
     background-color: #228b22;
     height: 600px;
     width: 100%;
+}
+
+footer{
+    background-color: #23272a
+}
+
+.foot1{
+    padding: 10px 20% 20px;
+}
+.item-footer{
+    height: 600px;
+    border-style: dashed;
+}
+.special{
+    background-color: #f08080;
+    flex-basis: 30%;
+}
+.super{
+    flex-basis: 70%;
+}
+.inside{
+    background-color: #20b2aa;
+    flex-basis: 25%;
+    border-style: dashed;
+    border-color: whitesmoke;
 }
