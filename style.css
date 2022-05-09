@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-size-adjust: 32px  ;
+}
+
+header{
+    background-color: #ADD8E6;
+    padding: 10px 20%;
+}
+
+.container{
+    display: flex;
+}
+
+div{
+    /* border-style: dotted; */
+}
+
+nav{
+    border-style: dotted;
+    flex-grow: 3;
+    text-align: center;
+}
+
+.top-header{
+ background-color: orange;
+ border-style: dotted;
+ 
+ /* align-items: center; */
+width: 80%;
+}
+
+.logo{
+    align-self: flex-start;
+    flex-grow: 1;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav ul{
+    list-style: none;    
+}
+
+.login{
+    flex-grow: 1;  
+}
