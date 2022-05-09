@@ -7,7 +7,7 @@
 
 header{
     background-color: #ADD8E6;
-    padding: 10px 20%;
+    padding: 10px 10%;
 }
 
 .container{
@@ -19,22 +19,24 @@ div{
 }
 
 nav{
-    border-style: dotted;
+    /* border-style: dotted; */
     flex-grow: 3;
     text-align: center;
 }
 
 .top-header{
- background-color: orange;
- border-style: dotted;
- 
- /* align-items: center; */
-width: 80%;
+    background-color: #daa520;
+    border-style: dotted;
+    width: 100%;
+    margin: auto;
 }
 
 .logo{
     align-self: flex-start;
     flex-grow: 1;
+    border-right-style: dotted;
+    padding: 5px;
+    
 }
 
 nav li{
@@ -42,9 +44,24 @@ nav li{
 }
 
 nav ul{
-    list-style: none;    
+    list-style: none;
+    padding: 5px;
 }
 
 .login{
     flex-grow: 1;  
+    border-left-style: dotted;
+    text-align: right;
+    padding: 5px;
+}
+
+.row1{
+    background-color: #00008b;
+    padding: 30px 20%;
+}
+
+.central{
+    height: 300px;
+    margin: auto;
+    background-color: #ee82ee;
 }
