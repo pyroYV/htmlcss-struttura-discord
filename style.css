@@ -12,6 +12,7 @@ header{
 
 .container{
     display: flex;
+    margin: auto;
 }
 
 div{
@@ -28,7 +29,7 @@ nav{
     background-color: #daa520;
     border-style: dotted;
     width: 100%;
-    margin: auto;
+    
 }
 
 .logo{
@@ -57,11 +58,41 @@ nav ul{
 
 .row1{
     background-color: #00008b;
-    padding: 30px 20%;
+    padding: 30px 30%;
 }
 
 .central{
     height: 300px;
     margin: auto;
     background-color: #ee82ee;
+}
+
+.row2, .row4{
+    background-color: whitesmoke;
+    padding: 30px 20%;
+}
+
+.row3, .row5{
+    background-color: #d3d3d3;
+    padding: 30px 20%;
+}
+
+.item{
+    height: 300px; 
+    }
+
+.big{
+    background-color: #1e90ff;
+    flex-basis: 60%;
+}
+
+.small{
+    background-color: #ffc0cb;
+    flex-basis: 40%;
+}
+
+.ultra{
+    background-color: #228b22;
+    height: 600px;
+    width: 100%;
 }
