@@ -13,6 +13,7 @@ header{
 .container{
     display: flex;
     margin: auto;
+
 }
 
 div{
@@ -27,7 +28,7 @@ nav{
 
 .top-header{
     background-color: #daa520;
-    border-style: dotted;
+    /* border-style: dashed; */
     width: 100%;
     
 }
@@ -35,23 +36,25 @@ nav{
 .logo{
     align-self: flex-start;
     flex-grow: 1;
-    border-right-style: dotted;
+    border-style: dashed;
     padding: 5px;
     
 }
 
 nav li{
     display: inline-block;
+    
 }
 
 nav ul{
     list-style: none;
     padding: 5px;
+    border-style: dashed;
 }
 
 .login{
     flex-grow: 1;  
-    border-left-style: dotted;
+    border-style: dashed;
     text-align: right;
     padding: 5px;
 }
@@ -63,6 +66,7 @@ nav ul{
 
 .central{
     height: 300px;
+    width: 100%;
     margin: auto;
     background-color: #ee82ee;
 }
@@ -77,8 +81,13 @@ nav ul{
     padding: 30px 20%;
 }
 
+.row6{
+    background-color: #23272a;
+    padding: 10px 20% 20px;
+}
 .item{
     height: 300px; 
+    border-style: dashed;
     }
 
 .big{
