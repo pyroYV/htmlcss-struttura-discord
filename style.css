@@ -7,12 +7,14 @@
 
 header{
     background-color: #ADD8E6;
+    padding-bottom: 5px;
+}
+.old-header{
     padding: 10px 20%;
 }
-
 .container{
     display: flex;
-    margin: auto;
+    margin:0 auto;
 
 }
 
@@ -31,10 +33,11 @@ nav{
     /* border-style: dashed; */
     width: 100%;
     
+    
 }
 
 .logo{
-    align-self: flex-start;
+    /* align-self: flex-start; */
     flex-grow: 1;
     border-style: dashed;
     padding: 5px;
@@ -59,14 +62,14 @@ nav ul{
     padding: 5px;
 }
 
-.row1{
+.jumbotron{
     background-color: #00008b;
     padding: 30px 30%;
 }
 
 .central{
     height: 300px;
-    width: 100%;
+    width: 800px;
     margin: auto;
     background-color: #ee82ee;
 }
@@ -111,7 +114,7 @@ footer{
     padding: 10px 20% 20px;
 }
 .item-footer{
-    height: 600px;
+    /* height: 600px; */
     border-style: dashed;
 }
 .special{
@@ -129,7 +132,8 @@ footer{
 }
 
 .footer2{
-    border-top: 1px white;
+    border-top: 2px;
+    border-color:whitesmoke;
     padding:20px 20% 0 20%;
 }
 
